@@ -1,0 +1,28 @@
+*{
+    margin:0px;
+    padding:0
+}
+
+html, body{
+    height:100%
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:rgb(200,200,200);
+}
+
+div{
+    display:flex;
+    width:50%;
+    height:75%;
+    background-color:white;
+    flex-direction:column;
+}
+
+img{
+    width:60%;
+    height:100%;
+}
