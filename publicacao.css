@@ -9,20 +9,134 @@ html, body{
 
 body{
     display:flex;
-    justify-content:center;
-    align-items:center;
     background-color:rgb(200,200,200);
+    flex-direction: column;
+    justify-content: center;
+    align-items:center
 }
 
-div{
+#topo{
     display:flex;
-    width:50%;
-    height:75%;
-    background-color:white;
-    flex-direction:column;
+    background-color:lightblue;
+    height:15%;
+    width:100%;
+    align-items:center;
+    justify-content:center;
+    margin-top:0%;
 }
 
-img{
-    width:60%;
+#logo{
+    height:75%;
+    width:15%;
+    margin-right:25%
+}
+
+#busca{
+    height:50%;
+    background-color:blue;
+    border-radius:10px;
+    outline:none;
+    margin-right:25%
+}
+
+.itens_topo{
+    height:20px;
+    width:20px;
+    padding:1%
+}
+
+#perfil_pessoa{
+    border-radius:100%;
+}
+
+#meio{
+    display:flex;
+    justify-content: left;
+    height:75%;
+    width:50%;
+    margin-top:10px;
+}
+
+#post{
     height:100%;
+    width:60%;
+}
+
+#lateral{
+    display:flex;
+    width:40%;
+    height:100%;
+    background-color:greenyellow;
+    flex-direction:row;
+}
+
+#cabecalho{
+    display:flex;
+    height:20%;
+    width:40%;
+    background-color:pink
+}
+
+.perfil{
+    display:flex;
+    height:20px;
+    width:20px;
+    border-radius:100%;
+}
+
+#mais{
+    display:flex;
+    height:20px;
+    width:20px;
+}
+
+#corpo{
+    display:flex;
+    flex-direction:row;
+    height:60%;
+    width:40%;
+    background-color:violet;
+}
+
+#legenda{
+    display:flex;
+}
+
+#pe{
+    display:flex;
+    flex-direction:row;
+    height:20%;
+    width:40%;
+    background-color:purple;
+}
+
+.itens_pe{
+    height:20px;
+    width:20px;
+    padding:1%
+}
+
+#salvar{
+    height:20px;
+    width:20px;
+    justify-self:right;
+}
+
+#curtida{
+    display:flex
+}
+
+#data{
+    display:flex;
+    font-style:italic;
+}
+
+#comentario{
+    display:flex;
+    height:20px;
+}
+
+#publicar{
+    display:flex;
+    height:20px
 }
