@@ -11,18 +11,18 @@ body{
     display:flex;
     background-color:rgb(200,200,200);
     flex-direction: column;
-    justify-content: center;
     align-items:center
 }
 
 #topo{
     display:flex;
-    background-color:lightblue;
+    background-color:rgb(220,220,220);
     height:15%;
     width:100%;
+    margin-top:0%;
     align-items:center;
     justify-content:center;
-    margin-top:0%;
+    border-bottom: 2px solid rgb(150,150,150)
 }
 
 #logo{
@@ -33,10 +33,10 @@ body{
 
 #busca{
     height:50%;
-    background-color:blue;
+    background-color:rgb(200,200,200);
     border-radius:10px;
     outline:none;
-    margin-right:25%
+    margin-right:25%;
 }
 
 .itens_topo{
@@ -51,10 +51,11 @@ body{
 
 #meio{
     display:flex;
-    justify-content: left;
     height:75%;
     width:50%;
-    margin-top:10px;
+    margin-top:2%;
+    justify-content:left;
+    border: 2px solid rgb(150,150,150)
 }
 
 #post{
@@ -63,18 +64,17 @@ body{
 }
 
 #lateral{
-    display:flex;
     width:40%;
     height:100%;
-    background-color:greenyellow;
-    flex-direction:row;
+    flex-direction:column;
 }
 
 #cabecalho{
     display:flex;
-    height:20%;
-    width:40%;
-    background-color:pink
+    height:10%;
+    width:100%;
+    background-color:rgb(200,200,200);
+    align-items:center;
 }
 
 .perfil{
@@ -82,44 +82,64 @@ body{
     height:20px;
     width:20px;
     border-radius:100%;
+    margin-left:3%;
+    margin-right:3%;
+}
+
+#perfil{
+    margin-top:3%
 }
 
 #mais{
     display:flex;
-    height:20px;
-    width:20px;
+    height:12px;
+    width:12px;
+    margin-left:25%
 }
 
 #corpo{
     display:flex;
-    flex-direction:row;
-    height:60%;
-    width:40%;
-    background-color:violet;
+    height:50%;
+    width:100%;
+    background-color:rgb(220,220,220);
 }
 
 #legenda{
-    display:flex;
+    margin-top:3%;
+    font-size:3.5mm;
 }
 
 #pe{
     display:flex;
-    flex-direction:row;
-    height:20%;
-    width:40%;
-    background-color:purple;
+    flex-direction:column;
+    height:40%;
+    width:100%;
+    background-color:rgb(200,200,200);
+}
+
+#pe_1{
+    margin-top:3%;
+    margin-bottom:5%;
+    margin-left:3%
 }
 
 .itens_pe{
     height:20px;
     width:20px;
-    padding:1%
+    padding:1%;
 }
 
 #salvar{
-    height:20px;
-    width:20px;
-    justify-self:right;
+    height:28px;
+    width:28px;
+    margin-left:40%;
+}
+
+#pe_2{
+    display:flex;
+    flex-direction:row;
+    margin-bottom:3%;
+    margin-left:3%
 }
 
 #curtida{
@@ -129,14 +149,26 @@ body{
 #data{
     display:flex;
     font-style:italic;
+    margin-bottom:5%;
+    margin-left:3%
+}
+
+#pe_3{
+    display:flex;
+    flex-direction:row;
+    margin-left:3%
 }
 
 #comentario{
-    display:flex;
-    height:20px;
+    height:25px;
+    border-radius:10%;
+    outline:none
 }
 
 #publicar{
-    display:flex;
-    height:20px
+    height:29px;
+    width:68px;
+    margin-left:1%;
+    border-radius:10%;
+    outline:none
 }
